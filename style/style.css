@@ -7,9 +7,9 @@
 
 /* header */
 header {
-    position: sticky;
+    max-width: inherit; 
+    width: inherit;
     display: flex;
-    width: 1440px;
     padding: 32px 80px;
     align-items: center;
     background: #372D23;
@@ -81,15 +81,39 @@ nav {
 /* section1 */
 .section1 {
     width: 1440px;
-    height: 640px;
+    height: 640px;  
+    position: relative;
 }
 
-.photo1{
+.photo1 {
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
-.p1{
-    
+.p1 {
+    position: absolute;
+    color: #FFF;
+    text-shadow: 0px 6px 4px #372D23;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    top: 250px;
+    left: 379px;
 }
-    
+
+.p2{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+position: absolute;
+top: 338px;
+left: 379px;
+border: 3px solid #FCC21B;
+box-shadow: 0px 4px 4px 0px #372D23;
+padding: 12px 38px;
+}
+
